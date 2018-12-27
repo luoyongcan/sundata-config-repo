@@ -1,4 +1,4 @@
-from: git-dev-3.0
+from: git-dev-1.0
 
 #该参数是用来开启重试机制
 spring:
