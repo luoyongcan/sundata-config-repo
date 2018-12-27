@@ -1,3 +1,5 @@
+from: git-dev-1.0
+
 #该参数是用来开启重试机制
 spring:
   cloud:
@@ -27,5 +29,3 @@ sundata-provider:
     OkToRetryOnAllOperations: true              #对所有操作请求都进行重试
     MaxAutoRetriesNextServer: 2                 #切换实例的重试次数
     MaxAutoRetries: 1                           #对当前实例的重试次数
-
-from: git-dev-1.0
