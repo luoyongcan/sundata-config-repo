@@ -4,6 +4,13 @@ spring:
     loadbalancer:
       retry:
         enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+        
+        
 #断路器的超时时间需要大于Ribbon的超时时间，不然不会触发重试
 hystrix:
   command:
